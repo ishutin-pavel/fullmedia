@@ -1,10 +1,10 @@
 <div class="box specials">
-	<div class="box-heading"><h3><?php echo $heading_title; ?></h3></div>
-	<div class="box-content">
-			<div class="box-carousel">
-			<?php $t=1000; foreach ($products as $product) { $t++ ?>
-			<div>
-				<div class="product-thumb transition  <?php if ($product['options']) echo 'options' ?>">
+    <div class="box-heading"><h3><?php echo $heading_title; ?></h3></div>
+    <div class="box-content">
+            <div class="box-carousel">
+            <?php $t=1000; foreach ($products as $product) { $t++ ?>
+            <div>
+                <div class="product-thumb transition  <?php if ($product['options']) echo 'options' ?>">
                     <?php if ($product['options']) { ?>
                         <!-- Product options -->
                         <div class="product-option-wrap">
@@ -201,10 +201,10 @@
                                                                data-date-format="YYYY-MM-DD"
                                                                id="input-option<?php echo $option['product_option_id'] .  $module . $t; ?>"
                                                                class="form-control"/>
-											<span class="input-group-btn">
-												<button class="btn btn-default" type="button"><i
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-default" type="button"><i
                                                         class="fa fa-calendar"></i></button>
-											</span>
+                                            </span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -224,10 +224,10 @@
                                                                data-date-format="YYYY-MM-DD HH:mm"
                                                                id="input-option<?php echo $option['product_option_id'] .  $module . $t; ?>"
                                                                class="form-control"/>
-									<span class="input-group-btn">
-									<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i>
+                                    <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i>
                                     </button>
-									</span></div>
+                                    </span></div>
                                                 </div>
                                             </div>
                                         <?php } ?>
@@ -246,10 +246,10 @@
                                                                data-date-format="HH:mm"
                                                                id="input-option<?php echo $option['product_option_id'] .  $module . $t; ?>"
                                                                class="form-control"/>
-									<span class="input-group-btn">
-									<button type="button" class="btn btn-default"><i class="fa fa-calendar"></i>
+                                    <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default"><i class="fa fa-calendar"></i>
                                     </button>
-									</span></div>
+                                    </span></div>
                                                 </div>
                                             </div>
                                         <?php } ?>
@@ -319,7 +319,7 @@
                                     <button class="product-btn-add" data-toggle="tooltip"
                                             title="<?php echo $button_cart; ?>" type="button"
                                             onclick="cart.add('<?php echo $product['product_id']; ?>');">
-                                        <i class="fl-justicons-shopping189 "></i>
+                                        В корзину <i class="fl-justicons-shopping189 "></i>
                                         <span><?php echo $button_cart; ?></span>
                                     </button>
                                     <ul class="product-buttons">
@@ -350,32 +350,32 @@
                             </div>
                         </div>
                     </div>
-					<?php if ($product['special']) { ?>
-						<div class="sale"><span><?php echo $text_sale; ?></span></div>
-					<?php } ?>
-					<div class="image">
+                    <?php if ($product['special']) { ?>
+                        <div class="sale"><span><?php echo $text_sale; ?></span></div>
+                    <?php } ?>
+                    <div class="image">
                         <a class="quickview quickview-special" data-rel="details" href="#quickview_specials_<?php echo $t . $module?>">
                             <?php echo $text_quick; ?>
                         </a>
-						<a class="lazy" style="padding-bottom: <?php echo ($product['img-height']/$product['img-width']*100); ?>%"
-							href="<?php echo $product['href']; ?>">
-						<img alt="<?php echo $product['name']; ?>"
-							title="<?php echo $product['name']; ?>"
-							class="img-responsive"
-							data-src="<?php echo $product['thumb']; ?>"
-							src="#"/>
-						</a>
-					</div>
-					<div class="caption">
-						<div class="name">
-							<a href="<?php echo $product['href']; ?>">
-								<?php echo $product['name']; ?>
-							</a>
-						</div>
-						<div class="description">
-							<?php echo $product['description']; ?>
-						</div>
-						<div class="prod-info-block">
+                        <a class="lazy" style="padding-bottom: <?php echo ($product['img-height']/$product['img-width']*100); ?>%"
+                            href="<?php echo $product['href']; ?>">
+                        <img alt="<?php echo $product['name']; ?>"
+                            title="<?php echo $product['name']; ?>"
+                            class="img-responsive"
+                            data-src="<?php echo $product['thumb']; ?>"
+                            src="#"/>
+                        </a>
+                    </div>
+                    <div class="caption">
+                        <div class="name">
+                            <a href="<?php echo $product['href']; ?>">
+                                <?php echo $product['name']; ?>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <?php echo $product['description']; ?>
+                        </div>
+                        <div class="prod-info-block">
                             <?php if ($product['price']) { ?>
                                 <div class="price">
                                     <?php if (!$product['special']) { ?>
@@ -405,18 +405,16 @@
                                 </div>
                             <?php } ?>
                         </div>
-					</div>
-					<div class="cart-button">
-						<button class="product-btn-add" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);">
-                                <i class="fl-justicons-shopping189"></i>
+                    </div>
+                    <div class="cart-button">
+                        <button class="product-btn-add" type="button" data-toggle="tooltip" title="<?php echo $button_cart; ?>" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);">
+                               В корзину <i class="fl-justicons-shopping189"></i>
                             </button>
-                            <button class="product-btn" type="button" data-toggle="tooltip"  title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><i class="fl-justicons-heart279"></i></button>
-                            <button class="product-btn" type="button" data-toggle="tooltip"  title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-balance-scale"></i></button>
-					</div>
-						<div class="clear"></div>
-				</div>
-			</div>
-			<?php } ?>
-			</div>
-		</div>
+                    </div>
+                        <div class="clear"></div>
+                </div>
+            </div>
+            <?php } ?>
+            </div>
+        </div>
 </div>

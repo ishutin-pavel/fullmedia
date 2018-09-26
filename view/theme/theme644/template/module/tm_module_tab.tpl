@@ -265,12 +265,7 @@
 										<?php } ?>
 									</div>
 									<button class="product-btn-add" data-toggle="tooltip" title="<?php echo $button_cart; ?>" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-shopping189 "></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip"title="<?php echo $button_wishlist; ?>"onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-heart279"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-balance-scale"></i>
+										В корзину <i class="fl-justicons-shopping189 "></i>
 									</button>
 									<div class="clear"></div>
 								</div>
@@ -331,14 +326,7 @@
 					</div>
 					<div class="cart-button">
 						<button class="product-btn-add" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);">
-							<i class="fl-justicons-shopping189"></i>
-							
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-							<i class="fl-justicons-heart279"></i>
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');">
-							<i class="fa fa-balance-scale"></i>
+							В корзину <i class="fl-justicons-shopping189"></i>
 						</button>
 					</div>
 				</div>
@@ -571,12 +559,7 @@
 										<?php } ?>
 									</div>
 									<button class="product-btn-add" data-toggle="tooltip" title="<?php echo $button_cart; ?>" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-shopping189"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip"title="<?php echo $button_wishlist; ?>"onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-heart279"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-balance-scale"></i>
+										В корзину <i class="fl-justicons-shopping189"></i>
 									</button>
 									<div class="clear"></div>
 								</div>
@@ -637,14 +620,7 @@
 					</div>
 					<div class="cart-button">
 						<button class="product-btn-add" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);">
-							<i class="fl-justicons-shopping189"></i>
-							
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-							<i class="fl-justicons-heart279"></i>
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');">
-							<i class="fa fa-balance-scale"></i>
+							В корзину <i class="fl-justicons-shopping189"></i>
 						</button>
 					</div>
 				</div>
@@ -877,12 +853,7 @@
 										<?php } ?>
 									</div>
 									<button class="product-btn-add" data-toggle="tooltip" title="<?php echo $button_cart; ?>" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-shopping189"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip"title="<?php echo $button_wishlist; ?>"onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-heart279"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-balance-scale"></i>
+										В корзину <i class="fl-justicons-shopping189"></i>
 									</button>
 									<div class="clear"></div>
 								</div>
@@ -943,14 +914,7 @@
 					</div>
 					<div class="cart-button">
 						<button class="product-btn-add" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);">
-							<i class="fl-justicons-shopping189"></i>
-							
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-							<i class="fl-justicons-heart279"></i>
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');">
-							<i class="fa fa-balance-scale"></i>
+							В корзину <i class="fl-justicons-shopping189"></i>
 						</button>
 					</div>
 				</div>
@@ -1183,12 +1147,7 @@
 										<?php } ?>
 									</div>
 									<button class="product-btn-add" data-toggle="tooltip" title="<?php echo $button_cart; ?>" type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-shopping189"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip"title="<?php echo $button_wishlist; ?>"onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-										<i class="fl-justicons-heart279"></i>
-									</button>
-									<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-balance-scale"></i>
+										В корзину <i class="fl-justicons-shopping189"></i>
 									</button>
 									<div class="clear"></div>
 								</div>
@@ -1249,14 +1208,7 @@
 					</div>
 					<div class="cart-button">
 						<button class="product-btn-add" type="button" onclick="ajaxAdd($(this),<?php echo $product['product_id'] ?>);">
-							<i class="fl-justicons-shopping189"></i>
-							
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');">
-							<i class="fl-justicons-heart279"></i>
-						</button>
-						<button class="product-btn" type="button" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');">
-							<i class="fa fa-balance-scale"></i>
+							В корзину <i class="fl-justicons-shopping189"></i>
 						</button>
 					</div>
 				</div>
