@@ -152,32 +152,6 @@
                     </div>
                     <div class="fright">
                         <div>
-                            <ul class="top-menu">
-                                <li>
-                                    <a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>">
-                                        <span><?php echo $text_checkout; ?></span></a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>">
-                                        <span><?php echo $text_account; ?></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <?php if ($logged) { ?>
-                                    <a href="<?php echo $logout; ?>">
-                                        <span><?php echo $text_logout; ?></span>
-                                    </a>
-                                    <?php } else { ?>
-                                    <a href="<?php echo $login; ?>">
-                                        <span><?php echo $text_login; ?></span>
-                                    </a>
-                                    <?php } ?>
-                                </li>
-                            </ul>
-                            <?php echo $language; ?>
-                            <?php echo $currency; ?>
-                        </div>
-                        <div>
                             <a class="wish_button" href="<?php echo $wishlist; ?>" id="wishlist-total"
                                 title="<?php echo $text_wishlist; ?>">
                                 <i class="fl-justicons-heart279"></i>
