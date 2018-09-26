@@ -515,11 +515,6 @@
                             <a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a>
                         </li>
                     <?php } ?>
-                    <?php if ($video) { ?>
-                        <li>
-                            <a href="#tab-video" data-toggle="tab"><?php echo $tab_video; ?></a>
-                        </li>
-                    <?php } ?>
                 </ul>
 
                 <div class="tab-content">
