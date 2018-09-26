@@ -1,0 +1,125 @@
+.parallax {
+	line-height:27px;
+	font-size:15px;
+	margin-bottom:30px;
+	color:#fff;
+}
+.parallax>div.link {
+	cursor:pointer
+}
+.parallax>div {
+	text-align: center;
+	position:relative;
+	padding:14.4% 0 10.1%;
+	color:#fff;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: auto !important;
+}
+.parallax p {
+	position:relative;
+	display:block;
+}
+.parallax h2 {
+	font-size: 90px;
+	line-height: 103px;
+	color: #2074ff;
+	letter-spacing: 13px;
+}
+.parallax a{
+	margin-top: 2px;
+	display: inline-block;
+	width: 195px;
+	font-size: 19px;
+	line-height: 27px;
+	font-weight: 700;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 14px 10px;
+	border: 2px solid #1f1f1f;
+}
+.parallax a:active, .parallax a:visited {
+	color: #1f1f1f;
+}
+.parallax a:hover{
+	background: #1f1f1f;
+	color: #fff;
+}
+.parallax .col-8 {
+	max-width: 800px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+}
+.top .parallax .col-8 {
+	max-width: 600px;
+}
+.top .parallax > div {
+	padding: 17.5% 0 16%;
+}
+
+@media (max-width: 1199px) {
+	.parallax h2 {
+		font-size: 80px;
+		line-height: 80px;
+	}
+}
+@media (max-width: 991px) {
+	.parallax h2 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
+@media (max-width: 767px) {
+	.parallax a {
+		font-size: 16px;
+		line-height: 20px;
+		width: 170px;
+	}
+	.parallax h2 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.parallax .col-8 {
+		max-width: 600px;
+	}
+	.top .parallax .col-8 {
+		max-width: 450px;
+	}
+}
+@media (max-width: 540px) {
+	.parallax a {
+		font-size: 14px;
+		line-height: 18px;
+		width: 150px;
+	}
+	.parallax h2 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+	.parallax .col-8 {
+		max-width: 350px;
+	}
+	.top .parallax .col-8 {
+		max-width: 300px;
+	}
+}
+@media (max-width: 399px) {
+	.parallax a {
+		font-size: 12px;
+		line-height: 16px;
+		width: 120px;
+	}
+	.parallax h2 {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.parallax .col-8 {
+		max-width: 280px;
+	}
+	.top .parallax .col-8 {
+		max-width: 280px;
+	}
+}
