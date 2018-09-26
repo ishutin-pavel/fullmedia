@@ -71,61 +71,6 @@
 <p id="gl_path" class="hidden"><?php echo $theme_path; ?></p>
 <div id="page">
     <header>
-        <nav id="top-links" class="nav toggle-wrap">
-            <a class="toggle material-design-settings49" href='#'></a>
-            <ul class="toggle_cont">
-                <li class="first">
-                    <a href="<?php echo $home; ?>" title="<?php echo $text_home; ?>" >
-<!--                            <i class="material-design-home149"></i>-->
-                        <span><?php echo $text_home; ?></span>
-                    </a>
-                </li>
-                <li class="toggle-wrap">
-                    <a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>"
-                       class="toggle">
-<!--                            <i class="material-design-user157"></i>-->
-                        <span><?php echo $text_account; ?></span>
-                        <span class="caret"></span></a>
-                    <ul class="toggle_cont toggle_cont__right">
-                        <?php if ($logged) { ?>
-                            <li>
-                                <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $order; ?>"><?php echo $text_order; ?></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $download; ?>"><?php echo $text_download; ?></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a>
-                            </li>
-                        <?php } else { ?>
-                            <li>
-                                <a href="<?php echo $register; ?>"><?php echo $text_register; ?></a>
-                            </li>
-                            <li>
-                                <a href="<?php echo $login; ?>"><?php echo $text_login; ?></a>
-                            </li>
-                        <?php } ?>
-                    </ul>
-                </li>
-                <li>
-                    <a href="<?php echo $compare; ?>" id="compare-total2"
-                       title="<?php echo $text_compare; ?>">
-<!--                            <i class="material-design-shuffle24"></i> -->
-                        <span><?php echo $text_compare; ?></span></a>
-                </li>
-                <li>
-                    <a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>">
-<!--                            <i class="material-design-forward18"></i> -->
-                        <span><?php echo $text_checkout; ?></span></a>
-                </li>
-            </ul>
-        </nav>
         <div class="container">
             <div class="fleft">
                 <div id="logo" class="logo">
@@ -143,12 +88,12 @@
                 <div class="top-row">
                     <div class="fleft">
                         <address class="fl-justicons-telephone95">
-                            <a href="callto:<?php echo $telephone; ?>"><?php echo $telephone; ?></a> 
-                             <a href="callto:<?php echo $fax; ?>"><?php echo $fax; ?></a>    
+                            <a href="callto:<?php echo $telephone; ?>"><?php echo $telephone; ?></a>
+                             <a href="callto:<?php echo $fax; ?>"><?php echo $fax; ?></a>
                         </address>
                         <address class="fl-justicons-circular210">
-                            <?php echo $open; ?>    
-                        </address>    
+                            <?php echo $open; ?>
+                        </address>
                     </div>
                     <div class="fright">
                         <div>
@@ -157,20 +102,32 @@
                                 <i class="fl-justicons-heart279"></i>
                                 <span><?php echo $text_wishlist; ?></span>
                             </a>
-                            <?php echo $cart; ?>    
+                            <?php echo $cart; ?>
                         </div>
                     </div>
                 </div>
                 <div class="menu">
                     <div class="fleft">
-                        <?php if ($categories) { ?>
                         <div id="tm_menu" class="nav__primary">
-                            <?php if ($categories_tm) {
-                                echo $categories_tm;
-                            } ?>
+                            <ul class="menu sf-js-enabled sf-arrows">
+                                <li>
+                                    <a href="<?php echo $home; ?>">Главная</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?route=product/category&path=43">Каталог</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?route=information/information&information_id=4">О магазине</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?route=information/information&information_id=6">Доставка</a>
+                                </li>
+                                <li>
+                                    <a href="/index.php?route=information/information&information_id=11">Контакты</a>
+                                </li>
+                            </ul>
                             <div class="clear"></div>
                         </div>
-                        <?php } ?>
                     </div>
                     <div class="fright">
                         <?php echo $search; ?>
@@ -179,15 +136,27 @@
             </div>
         </div>
 
-        <?php if ($categories) { ?>
             <div class="container">
                 <div id="menu-gadget" class="menu-gadget" >
-                    <?php if ($categories_tm) {
-                        echo $categories_tm;
-                    } ?>
+                    <ul class="menu sf-js-enabled sf-arrows">
+                        <li>
+                            <a href="<?php echo $home; ?>">Главная</a>
+                        </li>
+                        <li>
+                            <a href="/index.php?route=product/category&path=43">Каталог</a>
+                        </li>
+                        <li>
+                            <a href="/index.php?route=information/information&information_id=4">О магазине</a>
+                        </li>
+                        <li>
+                            <a href="/index.php?route=information/information&information_id=6">Доставка</a>
+                        </li>
+                        <li>
+                            <a href="/index.php?route=information/information&information_id=11">Контакты</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        <?php } ?>
 
         <?php if ($header_top){?>
             <div class="header_modules"><?php echo $header_top;?></div>

@@ -589,6 +589,10 @@ blockquote {
   margin-top: 90px;
 }
 
+.fright .fl-justicons-magnifier32:before {
+    color: #2074ff;
+}
+
 /*========================================================
                       Main Styles
 =========================================================*/
@@ -808,6 +812,9 @@ header address:before {
 }
 header .box-cart {
   display: inline-block;
+}
+header .top-row {
+  padding-left: 15px;
 }
 header .top-row .fright > div + div {
   text-align: right;
@@ -1183,6 +1190,11 @@ header .wish_button:hover, header .cart_button:hover {
   .top .parallax-section:before, .content_bottom .parallax-section:before {
     background-position: 50% 0;
   }
+}
+
+.parallax>div,
+.top .parallax > div {
+  padding: 8% 0 6%;
 }
 
 /*==================  Marked List  ======================*/
@@ -1599,12 +1611,6 @@ header .wish_button:hover, header .cart_button:hover {
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  opacity: 0;
-  -moz-transform: translateY(20px);
-  -ms-transform: translateY(20px);
-  -o-transform: translateY(20px);
-  -webkit-transform: translateY(20px);
-  transform: translateY(20px);
   z-index: -1;
 }
 .product-thumb .prod-info-block:before, .product-thumb .prod-info-block:after {
@@ -2327,9 +2333,10 @@ aside .row {
 
 .product-btn-add {
   background: none;
-  color: #1f1f1f;
-  padding: 0;
+  color: #f3f3f3;
   text-transform: uppercase;
+  background-color: #2074ff;
+  padding: 3px 5px;
 }
 .product-btn-add i {
   margin-right: 5px;
@@ -2337,8 +2344,8 @@ aside .row {
   line-height: 27px;
 }
 .product-btn-add:hover {
-  color: #2074ff;
-  background: none;
+  color: #fff;
+  background-color: #0f55ca;
 }
 
 /* ================   QuickView  =============== */
@@ -2859,7 +2866,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 }
 .nav__primary .menu li > a {
   display: block;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 27px;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2867,7 +2874,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 }
 @media (max-width: 1199px) {
   .nav__primary .menu li > a {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
