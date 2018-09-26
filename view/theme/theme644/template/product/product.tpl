@@ -479,11 +479,12 @@
                         <div class="product-share">
                             <!-- AddThis Button BEGIN -->
 
-                            <div class="addthis_sharing_toolbox"></div>
-
+                            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                            <div class="addthis_inline_share_toolbox_5ei1"></div>
 
                             <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55e053ac02ebd38e" async="async"></script>
+                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b9f850efa8f9aa3" async="async"></script>
+
 
                             <!-- AddThis Button END -->
                         </div>
