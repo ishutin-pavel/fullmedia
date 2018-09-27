@@ -440,9 +440,7 @@
                                            id="input-quantity" class="form-control"/>
                                     <input type="hidden" name="product_id" value="<?php echo $product_id; ?>"/>
                                     <a class="counter counter-plus material-design-add186" href='#'></a>
-                                    <button type="button" id="button-cart"
-                                            data-loading-text="<?php echo $text_loading; ?>"
-                                            class="product-btn-add"><?php echo $button_cart; ?></button>
+                                    <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="product-btn-add"><?php echo $button_cart; ?></button>
                                 </div>
                             </div>
 

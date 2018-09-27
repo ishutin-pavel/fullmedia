@@ -5921,3 +5921,19 @@ footer address:before {
     padding: 6px;
   }
 }
+
+
+/* Buy one click */
+.product-btn-add_one {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+#boc_order_title { text-align: center; }
+#boc_submit { background-color: #d40131; }
+#boc_submit:hover { background-color: #a70527; }
+
+
+.tab-content .product-btn-add_one {
+    margin-left: 0px !important;
+}
