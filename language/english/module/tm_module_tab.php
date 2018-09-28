@@ -1,7 +1,7 @@
 <?php
 // Heading
 $_['heading_title'] = 'Tm Module Tabs';
-$_['heading_latest'] = 'New';
+$_['heading_latest'] = '';//New
 $_['heading_specials'] = 'Specials';
 $_['heading_featured'] = 'Featured';
 $_['heading_bestsellers'] = 'Bestsellers';
@@ -9,7 +9,7 @@ $_['heading_bestsellers'] = 'Bestsellers';
 // Text
 $_['text_tax'] = 'Ex Tax:';
 $_['text_sale'] = 'Sale';
-$_['text_new'] = 'New';
+$_['text_new'] = '';//New
 
 $_['text_category'] = 'Categories';
 $_['text_manufacturer'] = 'Brand:';
