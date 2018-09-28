@@ -38,7 +38,13 @@
                     </address>
                 </div>
                 <div class="col-sm-3">
-                    <?php echo $tm_social_list; ?>
+                    <?php //echo $tm_social_list; ?>
+                    <div class="product-share">
+                        <!-- AddThis Button BEGIN -->
+                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b9f850efa8f9aa3"></script>
+                        <div class="addthis_inline_share_toolbox_78vu"></div>
+                        <!-- AddThis Button END -->
+                    </div>
                 </div>
             </div>
         </div>
