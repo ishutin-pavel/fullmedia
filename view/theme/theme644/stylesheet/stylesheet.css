@@ -758,10 +758,10 @@ header + * {
   margin-top: 60px;
 }
 header > .container > .fleft {
-  width: 17%;
+  width: 19%;
 }
 header > .container > .fright {
-  width: 83%;
+  width: 81%;
 }
 header .top-menu, header .box-language, header .box-currency {
   display: inline-block;
