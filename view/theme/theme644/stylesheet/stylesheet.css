@@ -2335,22 +2335,25 @@ aside .row {
   background: none;
   color: #f3f3f3;
   text-transform: uppercase;
-  background-color: #A10125;
+  background-color: #d40131;
   padding: 3px 5px;
 }
 
 .product-btn-add:hover {
   color: #fff;
-  background-color: #d40131;
+  background-color: #A10125;
 }
 
 .product-btn-add_one {
-  background-color: #d40131;
+  background-color: #ffd200;
+  color: #000;
+  font-weight: bold;
+  border: 1px solid #000;
 }
 
 .product-btn-add_one:hover {
-  color: #fff;
-  background-color: #A10125;
+  color: #000;
+  background-color: #e3bb00;
 }
 
 .product-btn-add i {
