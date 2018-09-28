@@ -5575,7 +5575,7 @@ footer {
   background: #fff;
   border-top: 3px solid #1f1f1f;
   margin-top: 30px;
-  padding-top: 52px;
+  padding-top: 15px;
 }
 footer h5 {
   font-size: 16px;
@@ -5598,7 +5598,7 @@ footer .facebook {
   margin-top: 8px;
 }
 footer .container + .container {
-  margin-top: 52px;
+  margin-top: 10px;
 }
 footer .bordered-block {
   border-top: 1px solid #d2d2d2;
@@ -5665,6 +5665,23 @@ footer address:before {
 .copyright > .container {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-menu li {
+  padding: 5px 15px;
+
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /*========================================================
