@@ -5970,3 +5970,22 @@ footer address:before {
     padding: 6px;
   }
 }
+
+/* Home Manufacturer */
+.common-home .manufacturer .box-heading { margin-top: 25px; margin-bottom: 15px; }
+
+.common-home .manufacturer h3 { text-align: center; }
+
+.common-home .manufacturer li {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: 520px) {
+  .common-home .manufacturer li { width: 49%; }
+}
+
+
+@media (min-width: 1200px) {
+  .common-home .manufacturer li { width: 33%; padding-left: 70px; }
+}
