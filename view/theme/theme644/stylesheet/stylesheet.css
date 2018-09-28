@@ -2335,17 +2335,46 @@ aside .row {
   background: none;
   color: #f3f3f3;
   text-transform: uppercase;
-  background-color: #d40131;
+  background-color: #A10125;
   padding: 3px 5px;
 }
+
+.product-btn-add:hover {
+  color: #fff;
+  background-color: #d40131;
+}
+
+.product-btn-add_one {
+  background-color: #d40131;
+}
+
+.product-btn-add_one:hover {
+  color: #fff;
+  background-color: #A10125;
+}
+
 .product-btn-add i {
   margin-right: 5px;
   font-size: 20px;
   line-height: 27px;
 }
-.product-btn-add:hover {
-  color: #fff;
-  background-color: #a70527;
+
+
+
+/* Buy one click */
+.product-btn-add_one {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+#boc_order_title { text-align: center; }
+#boc_submit { background-color: #d40131; }
+#boc_submit:hover { background-color: #a70527; }
+
+
+
+.tab-content .product-btn-add_one {
+    margin-left: 0px !important;
 }
 
 /* ================   QuickView  =============== */
@@ -5920,20 +5949,4 @@ footer address:before {
   .delivery_page .table th {
     padding: 6px;
   }
-}
-
-
-/* Buy one click */
-.product-btn-add_one {
-  display: inline-block;
-  margin-top: 15px;
-}
-
-#boc_order_title { text-align: center; }
-#boc_submit { background-color: #d40131; }
-#boc_submit:hover { background-color: #a70527; }
-
-
-.tab-content .product-btn-add_one {
-    margin-left: 0px !important;
 }
