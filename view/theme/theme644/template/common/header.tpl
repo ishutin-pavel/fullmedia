@@ -97,11 +97,6 @@
                     </div>
                     <div class="fright">
                         <div>
-                            <a class="wish_button" href="<?php echo $wishlist; ?>" id="wishlist-total"
-                                title="<?php echo $text_wishlist; ?>">
-                                <i class="fl-justicons-heart279"></i>
-                                <span><?php echo $text_wishlist; ?></span>
-                            </a>
                             <?php echo $cart; ?>
                         </div>
                     </div>
