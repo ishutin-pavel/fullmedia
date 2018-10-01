@@ -65,7 +65,7 @@
     <?php foreach ($analytics as $analytic) { ?>
         <?php echo $analytic; ?>
     <?php } ?>
-    <link href="catalog/view/theme/<?php echo $theme_path; ?>/stylesheet/stylesheet.css?ver=1" rel="stylesheet">
+    <link href="catalog/view/theme/<?php echo $theme_path; ?>/stylesheet/stylesheet.css?ver=2" rel="stylesheet">
 </head>
 <body class="<?php echo $class; ?>">
 <p id="gl_path" class="hidden"><?php echo $theme_path; ?></p>
